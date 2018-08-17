@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "586764563520",
+    "firebase_url": "https://creditravel-1.firebaseio.com",
+    "project_id": "creditravel-1",
+    "storage_bucket": "creditravel-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586764563520:android:e8a7a6102257123f",
+        "android_client_info": {
+          "package_name": "com.example.carlosje.creditravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586764563520-ai3sg1k2n7f7p03qtt6kne5kpb98ktl5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carlosje.creditravel",
+            "certificate_hash": "3882a3177bcb1f32d3b3b0b55a8aed8ec61bc604"
+          }
+        },
+        {
+          "client_id": "586764563520-fuueo4ft1muvpdmt73sf5o2javhs4uge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHh705oeM0_LCYzgNG519kUxtNsAaMDhU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586764563520-fuueo4ft1muvpdmt73sf5o2javhs4uge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

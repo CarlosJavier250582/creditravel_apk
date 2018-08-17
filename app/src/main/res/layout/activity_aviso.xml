@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlosje.creditravel.AvisoActivity"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="32dp"
+    android:paddingRight="8dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.example.carlosje.creditravel.JustifyTextView
+                android:id="@+id/datos_conent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:layout_marginBottom="8dp"
+                android:text="Por medio del presente aviso y en cumplimiento con los artículos 3, 7, 15, 16 y relativos de la Ley de Protección de Datos Personales en Posesión de Particulares (la 'Ley') notificamos a usted que la información personal que nos ha entregado que puede ser utilizada para identificarle y ser considerada como sensible de acuerdo con la Ley. En este acto da su autorización expresa para que dicha información personal pueda ser utilizada por CrediTravel para efecto de: (i) determinar programas de fidelidad, (ii) actualización de la base de datos, (iii) análisis para uso interno y planeación y (iv) cualquiera relacionada con las cuatro anteriores. Así mismo le informamos que su información personal será mantenida por CrediTravel en bases de datos propiedad CrediTravel y solo será utilizada de manera justificada y siempre en cumplimiento con la Ley. De conformidad con los artículos 22, 24, 25 y relativos de la Ley usted tiene el derecho a solicitar modificaciones a toda o parte de su información personal y a que dicha información sea retirada total o parcialmente de las bases de datos de las Sociedades. CrediTravel no es ni será responsable por la veracidad de la información personal que usted proporcione, ni de su verificación y/o actualización, por lo que si usted no solicita el cambio o modificación de información deberá asumirse que la información es precisa y verdadera con todas las implicaciones que esto conlleve, siendo usted el único responsable por la información personal proporcionada y sus consecuencias.
+        "
+
+                 />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
