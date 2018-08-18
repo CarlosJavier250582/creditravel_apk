@@ -865,6 +865,8 @@ public class CapturaActivity extends AppCompatActivity implements  DatePickerDia
             result.put("fecha_captura",FechaNow);
             result.put("ubicacion", mLatitude.getText().toString()+","+mLongitude.getText().toString());
             result.put("acepta_uso_de_datos_personales",acepto_F);
+            result.put("user",usuario);
+            result.put("validado","No");
 
 
 
